@@ -37,23 +37,19 @@
 
 /* TITLE */
 .center{
- position:absolute;
+  position:absolute;
   inset:0;
   display:flex;
-  align-items:center;     /* centra vertical */
-  justify-content:center; /* centra horizontal */
+  align-items:center;
+  justify-content:center;
   text-align:center;
 }
 
 /* Premium shine sweep over the whole word */
 .word{
-  position: relative; /* <-- importante para el pseudo */
-  
-  color: #fff;
-  font-size: clamp(70px, 15vw, 240px);  
+  font-size: clamp(80px, 15vw, 240px);
   font-weight: 900;
-  -webkit-text-stroke: 0.8px rgba(0,0,0,.45);
-  transform: translateY(20vh);
+  font-family: 'Playfair Display', serif;
 }
 
 
@@ -75,6 +71,13 @@
   pointer-events:none;
   mix-blend-mode: screen;
   filter: blur(1px);
+}
+
+.subtitle{
+  margin-top: 20px;
+  font-size: clamp(30px, 5vw, 66px);
+  letter-spacing: .35em;
+  color: white;
 }
 
 .subwrap{ width:100%; text-align:center; }
