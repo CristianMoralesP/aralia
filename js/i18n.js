@@ -67,6 +67,14 @@
     els.tagline.textContent = t.tagline;
     els.h2.textContent = t.h2;
     els.p2.textContent = t.p2;
+
+    // guardar idioma
+    localStorage.setItem("lang", lang);
+
+    // active button
+    els.langBtns.forEach((btn) => {
+      btn.classList.toggle("is-active", btn.dataset.lang === lang);
+    });
   }
 
   function renderWordAsLetters(el, text) {
@@ -80,11 +88,12 @@
     const saved = localStorage.getItem("aralia_lang");
     if (saved && i18n[saved]) initialLang = saved;
   } catch (e) {}
-  setLanguage(initialLang);
+  const savedLang = localStorage.getItem("lang") || "es";
+  setLanguage(savedLang);
 
-  els.langBtns.forEach((btn) =>
-    btn.addEventListener("click", () => setLanguage(btn.dataset.lang)),
-  );
+  els.langBtns.forEach((btn) => {
+    btn.addEventListener("click", () => setLanguage(btn.dataset.lang));
+  });
 
   window.ARALIA = window.ARALIA || {};
   window.ARALIA.setLanguage = setLanguage;
