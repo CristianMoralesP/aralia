@@ -86,10 +86,17 @@
   let initialLang = "es";
   try {
     const saved = localStorage.getItem("aralia_lang");
-    if (saved && i18n[saved]) initialLang = saved;
+
+    if (saved && i18n[saved]) {
+      initialLang = saved;
+    } else {
+      const nav = (navigator.language || "es").slice(0, 2).toLowerCase();
+      initialLang = i18n[nav] ? nav : "es";
+      localStorage.setItem("aralia_lang", initialLang); // guardar primera elección
+    }
   } catch (e) {}
-  const savedLang = localStorage.getItem("lang") || "es";
-  setLanguage(savedLang);
+
+  setLanguage(initialLang);
 
   els.langBtns.forEach((btn) => {
     btn.addEventListener("click", () => setLanguage(btn.dataset.lang));
