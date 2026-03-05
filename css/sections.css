@@ -281,3 +281,69 @@
   margin: 0 0 6px 0;
   font-weight: 600;
 }
+
+/* ===============================
+   LOCATION SECTION
+================================= */
+
+.location-info {
+  margin-top: 10px;
+}
+
+.loc-title {
+  margin: 6px 0 14px 0;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 0.02em;
+}
+
+.loc-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+  .loc-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.loc-item {
+  padding: 14px 14px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.loc-item-title {
+  margin: 0 0 6px 0;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.loc-item-text {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.6;
+}
+
+.loc-sep {
+  height: 1px;
+  margin: 18px 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(214, 177, 90, 0.55),
+    transparent
+  );
+}
+
+.loc-invest {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.78);
+  line-height: 1.7;
+}
