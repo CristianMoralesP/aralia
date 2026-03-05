@@ -41,6 +41,23 @@
         ease: "power2.out",
       });
     }
+    if (idx === 4 && typeof playFinalWow === "function") {
+      playFinalWow();
+    }
+
+    const section = document.querySelectorAll(".section")[idx];
+
+    if (section) {
+      const anim = section.dataset.anim;
+
+      if (
+        anim &&
+        window.sectionAnimations &&
+        typeof window.sectionAnimations[anim] === "function"
+      ) {
+        window.sectionAnimations[anim]();
+      }
+    }
   }
   function resetSection(idx) {
     if (idx === 1 && card2)
