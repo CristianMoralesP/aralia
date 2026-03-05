@@ -160,26 +160,31 @@
         </div>
       </section>
 
-      <!-- SECTION 3 -->
       <section class="section section-dark" id="s3">
         <div class="card" id="card3">
-          <p class="h" id="h3">Ubicación</p>
+          <p class="h" data-i18n="s3.kicker">Ubicación</p>
 
           <div class="location-info">
-            <h3 class="loc-title">Ubicación premium & conectividad</h3>
+            <h3 class="loc-title" data-i18n="s3.title">
+              Ubicación premium & conectividad
+            </h3>
 
             <div class="loc-grid">
               <div class="loc-item">
-                <p class="loc-item-title">Ubicación premium</p>
-                <p class="loc-item-text">
+                <p class="loc-item-title" data-i18n="s3.premiumTitle">
+                  Ubicación premium
+                </p>
+                <p class="loc-item-text" data-i18n="s3.premiumText">
                   Vías de acceso y calidad de servicios para salir y entrar a la
                   zona.
                 </p>
               </div>
 
               <div class="loc-item">
-                <p class="loc-item-title">Excelente conectividad</p>
-                <p class="loc-item-text">
+                <p class="loc-item-title" data-i18n="s3.connectTitle">
+                  Excelente conectividad
+                </p>
+                <p class="loc-item-text" data-i18n="s3.connectText">
                   TransMilenio, ciclorrutas, vías principales y próximamente
                   Metro.
                 </p>
@@ -189,8 +194,13 @@
             <div class="loc-sep"></div>
 
             <p class="loc-invest">
-              <strong>Una inversión inteligente:</strong> diseño atemporal,
-              ubicación estratégica y alta demanda en el mercado premium.
+              <strong data-i18n="s3.investStrong"
+                >Una inversión inteligente:</strong
+              >
+              <span data-i18n="s3.investText">
+                diseño atemporal, ubicación estratégica y alta demanda en el
+                mercado premium.
+              </span>
             </p>
           </div>
 
@@ -202,35 +212,34 @@
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
               src="https://www.openstreetmap.org/export/embed.html?bbox=-74.0832%2C4.6359%2C-74.0632%2C4.6459&layer=mapnik&marker=4.6409%2C-74.0732"
-            >
-            </iframe>
+            ></iframe>
           </div>
         </div>
       </section>
 
-      <!-- SECTION 4 — APARTAMENTOS -->
       <section class="section section-dark" id="s4">
         <div class="card" id="card4">
-          <p class="h">Apartamentos</p>
+          <p class="h" data-i18n="s4.kicker">Apartamentos</p>
 
           <div class="apt-grid">
             <!-- TIPO 1 -->
             <article class="apt-card">
               <div class="apt-head">
                 <div>
-                  <p class="apt-k">Apartamento tipo 1</p>
+                  <p class="apt-k" data-i18n="s4.t1.name">Apartamento tipo 1</p>
                   <h3 class="apt-t">64 m²</h3>
                 </div>
-                <span class="apt-tag">Ideal para inversión</span>
+                <span class="apt-tag" data-i18n="s4.t1.tag"
+                  >Ideal para inversión</span
+                >
               </div>
 
               <div class="apt-meta">
-                <span>2 habitaciones</span>
-                <span>2 baños</span>
-                <span>Cocina abierta</span>
+                <span data-i18n="s4.common.bedrooms">2 habitaciones</span>
+                <span data-i18n="s4.common.bathrooms">2 baños</span>
+                <span data-i18n="s4.common.kitchen">Cocina abierta</span>
               </div>
 
-              <!-- Foto -->
               <img
                 class="apt-photo"
                 src="assets/img/apartamentos/tipo1.jpg"
@@ -238,14 +247,13 @@
                 loading="lazy"
               />
 
-              <ul class="apt-list">
+              <ul class="apt-list" data-i18n-list="s4.t1.items">
                 <li>Sala – comedor</li>
                 <li>Zona lavandería</li>
               </ul>
 
-              <!-- Plano -->
               <div class="apt-planWrap">
-                <p class="apt-miniTitle">Plano</p>
+                <p class="apt-miniTitle" data-i18n="s4.common.plan">Plano</p>
                 <img
                   class="apt-plan"
                   src="assets/img/plans/tipo1.jpg"
@@ -259,19 +267,20 @@
             <article class="apt-card">
               <div class="apt-head">
                 <div>
-                  <p class="apt-k">Apartamento tipo 2</p>
+                  <p class="apt-k" data-i18n="s4.t2.name">Apartamento tipo 2</p>
                   <h3 class="apt-t">52 m²</h3>
                 </div>
-                <span class="apt-tag apt-tag--soft">Perfecto para parejas</span>
+                <span class="apt-tag apt-tag--soft" data-i18n="s4.t2.tag">
+                  Perfecto para parejas
+                </span>
               </div>
 
               <div class="apt-meta">
-                <span>2 habitaciones</span>
-                <span>2 baños</span>
-                <span>Cocina abierta</span>
+                <span data-i18n="s4.common.bedrooms">2 habitaciones</span>
+                <span data-i18n="s4.common.bathrooms">2 baños</span>
+                <span data-i18n="s4.common.kitchen">Cocina abierta</span>
               </div>
 
-              <!-- Foto -->
               <img
                 class="apt-photo"
                 src="assets/img/apartamentos/tipo2.jpg"
@@ -279,14 +288,13 @@
                 loading="lazy"
               />
 
-              <ul class="apt-list">
+              <ul class="apt-list" data-i18n-list="s4.t2.items">
                 <li>Sala – comedor</li>
                 <li>Zona lavandería</li>
               </ul>
 
-              <!-- Plano -->
               <div class="apt-planWrap">
-                <p class="apt-miniTitle">Plano</p>
+                <p class="apt-miniTitle" data-i18n="s4.common.plan">Plano</p>
                 <img
                   class="apt-plan"
                   src="assets/img/plans/tipo2.jpg"
@@ -297,10 +305,14 @@
             </article>
           </div>
 
-          <!-- CTA -->
           <div class="apt-ctaRow">
-            <a class="apt-btn" href="#contacto">Solicitar información</a>
-            <a class="apt-btn apt-btn--ghost" href="#contacto"
+            <a class="apt-btn" href="#contacto" data-i18n="s4.cta1"
+              >Solicitar información</a
+            >
+            <a
+              class="apt-btn apt-btn--ghost"
+              href="#contacto"
+              data-i18n="s4.cta2"
               >Agendar visita</a
             >
           </div>
@@ -342,7 +354,7 @@
           </div>
 
           <div class="final-message">
-            <h2 class="final-h">
+            <h2 class="final-h" data-i18n-lines="s5.headlineLines">
               <span class="reveal"
                 ><span class="reveal-line">¿Qué esperas?</span></span
               >
@@ -356,17 +368,20 @@
               >
             </h2>
 
-            <p class="final-p">
+            <p class="final-p" data-i18n="s5.text">
               Vive en una ubicación premium. Invierte en un proyecto atemporal.
             </p>
 
             <div class="final-cta">
-              <a class="final-btn" href="#s2">Ver presentación</a>
+              <a class="final-btn" href="#s2" data-i18n="s5.cta1"
+                >Ver presentación</a
+              >
               <a
                 class="final-btn final-btn--ghost"
                 href="https://wa.me/WHATSAPP_NUMBER?text=Hola%20Aralia%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n."
                 target="_blank"
                 rel="noopener"
+                data-i18n="s5.cta2"
                 >Hablar por WhatsApp</a
               >
             </div>

@@ -13,7 +13,7 @@
       p2: "La fachada del edificio destaca por su diseño de vidrio y líneas. Ventanales de piso a techo, conectan interior y ciudad.",
       h3: "Ubicación",
       p3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.",
-      // ES
+
       s2: {
         title: "Arquitectura que inspira",
         presentationText:
@@ -29,6 +29,51 @@
           "Centros comerciales",
         ],
       },
+
+      s3: {
+        kicker: "Ubicación",
+        title: "Ubicación premium & conectividad",
+        premiumTitle: "Ubicación premium",
+        premiumText:
+          "Vías de acceso y calidad de servicios para salir y entrar a la zona.",
+        connectTitle: "Excelente conectividad",
+        connectText:
+          "TransMilenio, ciclorrutas, vías principales y próximamente Metro.",
+        investStrong: "Una inversión inteligente:",
+        investText:
+          "diseño atemporal, ubicación estratégica y alta demanda en el mercado premium.",
+      },
+      s4: {
+        kicker: "Apartamentos",
+        common: {
+          bedrooms: "2 habitaciones",
+          bathrooms: "2 baños",
+          kitchen: "Cocina abierta",
+          plan: "Plano",
+        },
+        t1: {
+          name: "Apartamento tipo 1",
+          tag: "Ideal para inversión",
+          items: ["Sala – comedor", "Zona lavandería"],
+        },
+        t2: {
+          name: "Apartamento tipo 2",
+          tag: "Perfecto para parejas",
+          items: ["Sala – comedor", "Zona lavandería"],
+        },
+        cta1: "Solicitar información",
+        cta2: "Agendar visita",
+      },
+      s5: {
+        headlineLines: [
+          "¿Qué esperas?",
+          "Tu hogar, o tu inversión,",
+          "te está esperando.",
+        ],
+        text: "Vive en una ubicación premium. Invierte en un proyecto atemporal.",
+        cta1: "Ver presentación",
+        cta2: "Hablar por WhatsApp",
+      },
     },
     en: {
       htmlLang: "en",
@@ -43,7 +88,7 @@
       p2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.",
       h3: "Location",
       p3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.",
-      // EN
+
       s2: {
         title: "Architecture that inspires",
         presentationText:
@@ -58,6 +103,51 @@
           "Theaters, bookstores and cultural spots",
           "Shopping centers",
         ],
+      },
+
+      s3: {
+        kicker: "Location",
+        title: "Premium location & connectivity",
+        premiumTitle: "Premium location",
+        premiumText:
+          "Quality access roads and services that make it easy to enter and leave the area.",
+        connectTitle: "Excellent connectivity",
+        connectText:
+          "TransMilenio, bike lanes, main roads and the upcoming Metro.",
+        investStrong: "A smart investment:",
+        investText:
+          "timeless design, strategic location and strong premium demand.",
+      },
+      s4: {
+        kicker: "Apartments",
+        common: {
+          bedrooms: "2 bedrooms",
+          bathrooms: "2 bathrooms",
+          kitchen: "Open kitchen",
+          plan: "Floor plan",
+        },
+        t1: {
+          name: "Apartment type 1",
+          tag: "Ideal for investment",
+          items: ["Living–dining area", "Laundry area"],
+        },
+        t2: {
+          name: "Apartment type 2",
+          tag: "Perfect for couples",
+          items: ["Living–dining area", "Laundry area"],
+        },
+        cta1: "Request information",
+        cta2: "Schedule a visit",
+      },
+      s5: {
+        headlineLines: [
+          "What are you waiting for?",
+          "Your home — or your investment —",
+          "is waiting for you.",
+        ],
+        text: "Live in a premium location. Invest in a timeless project.",
+        cta1: "View presentation",
+        cta2: "Chat on WhatsApp",
       },
     },
     fr: {
@@ -89,6 +179,50 @@
           "Centres commerciaux",
         ],
       },
+      s3: {
+        kicker: "Emplacement",
+        title: "Emplacement premium & connectivité",
+        premiumTitle: "Emplacement premium",
+        premiumText:
+          "Voies d’accès et services de qualité pour entrer et sortir facilement de la zone.",
+        connectTitle: "Excellente connectivité",
+        connectText:
+          "TransMilenio, pistes cyclables, routes principales et futur métro.",
+        investStrong: "Un investissement intelligent :",
+        investText:
+          "design intemporel, emplacement stratégique et forte demande premium.",
+      },
+      s4: {
+        kicker: "Appartements",
+        common: {
+          bedrooms: "2 chambres",
+          bathrooms: "2 salles de bain",
+          kitchen: "Cuisine ouverte",
+          plan: "Plan",
+        },
+        t1: {
+          name: "Appartement type 1",
+          tag: "Idéal pour investir",
+          items: ["Salon – salle à manger", "Espace buanderie"],
+        },
+        t2: {
+          name: "Appartement type 2",
+          tag: "Parfait pour les couples",
+          items: ["Salon – salle à manger", "Espace buanderie"],
+        },
+        cta1: "Demander des infos",
+        cta2: "Planifier une visite",
+      },
+      s5: {
+        headlineLines: [
+          "Qu’attendez-vous ?",
+          "Votre maison — ou votre investissement —",
+          "vous attend.",
+        ],
+        text: "Vivez dans un emplacement premium. Investissez dans un projet intemporel.",
+        cta1: "Voir la présentation",
+        cta2: "Parler sur WhatsApp",
+      },
     },
   };
 
@@ -114,6 +248,15 @@
         const li = document.createElement("li");
         li.textContent = item;
         el.appendChild(li);
+      });
+    });
+    document.querySelectorAll("[data-i18n-lines]").forEach((wrap) => {
+      const lines = get(t, wrap.dataset.i18nLines);
+      if (!Array.isArray(lines)) return;
+
+      const targets = wrap.querySelectorAll(".reveal-line");
+      targets.forEach((node, i) => {
+        if (lines[i] != null) node.textContent = lines[i];
       });
     });
   }
